@@ -1,0 +1,14 @@
+{
+  "name": "gr-crash-data-analysis",
+  "version": "0.0.1",
+  "description": "A small set of scripts which analyze a dataset from the GR PD.",
+  "scripts": {
+    "stats": "npm run ./scripts/statistics.js"
+  },
+  "author": "Matt Koster",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
